@@ -9,6 +9,7 @@
 
     epic = await getTicketJson(origin, ticket);
     ticketType = epic.fields.issuetype.name;
+    
     if(ticketType !== "Epic") {
         alert(`This only works on Jira Epics, you gave it ${ticket}, a ${jticketType}`);
         return;

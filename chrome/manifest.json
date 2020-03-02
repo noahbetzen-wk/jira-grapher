@@ -11,8 +11,7 @@
         "persistent": false
     },
     "permissions": [
-        "activeTab",
-        "https://jira.atl.workiva.net/"
+        "activeTab"
     ],
     "content_security_policy": "script-src 'self' https://d3js.org https://dagrejs.github.io https://code.jquery.com; object-src 'self'"
   }
