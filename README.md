@@ -6,6 +6,13 @@ The tool this is based on uses Graphviz on a server to generate the graph. [Grap
 
 The alternative listed is called [Dagre](https://github.com/dagrejs/dagre), and this tool uses it and [Dagre D3](https://github.com/dagrejs/dagre-d3) (based on [D3.js](https://d3js.org/)) for rendering.
 
+[I'm still having issues with graphing a DAG of Jira tickets](https://github.com/dagrejs/dagre-d3/issues/392), but I may end up trying some other D3 implementations I've found online:
+
+- [d3-dag](https://github.com/erikbrinkman/d3-dag)
+- [d3-hierarchy](https://observablehq.com/@d3/visiting-a-d3-hierarchy?collection=@d3/d3-hierarchy)
+- [d3-stratify](https://observablehq.com/@d3/d3-stratify?collection=@d3/d3-hierarchy)
+- [d3-dag-visualization](https://github.com/nickholub/d3-dag-visualization) (based on Dagre)
+
 # Browser APIs:
 
 - [Chrome](https://developer.chrome.com/extensions/getstarted)
